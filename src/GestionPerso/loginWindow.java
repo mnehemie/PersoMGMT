@@ -9,6 +9,8 @@ package GestionPerso;
  *
  * @author mrwho
  */
+
+//Good
 public class loginWindow extends javax.swing.JFrame {
 
     /**
@@ -38,7 +40,6 @@ public class loginWindow extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Login");
         setLocation(new java.awt.Point(675, 350));
-        setPreferredSize(new java.awt.Dimension(250, 300));
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
