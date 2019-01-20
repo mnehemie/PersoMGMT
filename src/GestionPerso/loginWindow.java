@@ -48,7 +48,7 @@ public class loginWindow extends javax.swing.JFrame {
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jButton1.setBackground(new java.awt.Color(250, 200, 120));
-        jButton1.setIcon(new javax.swing.ImageIcon("/home/mrwho/NetBeansProjects/GestionPersoGI3/Assets/icons8-person-96.png")); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GestionPerso/Assets/icons8-person-96.png"))); // NOI18N
         jButton1.setToolTipText("");
         jButton1.setBorder(null);
         jButton1.setContentAreaFilled(false);
@@ -79,7 +79,7 @@ public class loginWindow extends javax.swing.JFrame {
 
         jButton2.setBackground(new java.awt.Color(120, 170, 250));
         jButton2.setFont(new java.awt.Font("Noto Sans", 1, 14)); // NOI18N
-        jButton2.setIcon(new javax.swing.ImageIcon("/home/mrwho/NetBeansProjects/GestionPersoGI3/Assets/icons8-right-pointing-arrow-48.png")); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GestionPerso/Assets/icons8-right-pointing-arrow-48.png"))); // NOI18N
         jButton2.setBorderPainted(false);
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -89,7 +89,7 @@ public class loginWindow extends javax.swing.JFrame {
         jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 220, 80, 45));
 
         jButton3.setBackground(new java.awt.Color(250, 200, 120));
-        jButton3.setIcon(new javax.swing.ImageIcon("/home/mrwho/NetBeansProjects/GestionPersoGI3/Assets/icons8-user-male-48.png")); // NOI18N
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GestionPerso/Assets/icons8-user-male-48.png"))); // NOI18N
         jButton3.setToolTipText("");
         jButton3.setBorder(null);
         jButton3.setContentAreaFilled(false);
@@ -102,7 +102,7 @@ public class loginWindow extends javax.swing.JFrame {
         jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 120, -1, -1));
 
         jButton4.setBackground(new java.awt.Color(250, 200, 120));
-        jButton4.setIcon(new javax.swing.ImageIcon("/home/mrwho/NetBeansProjects/GestionPersoGI3/Assets/icons8-lock-48.png")); // NOI18N
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GestionPerso/Assets/icons8-lock-48.png"))); // NOI18N
         jButton4.setToolTipText("");
         jButton4.setBorder(null);
         jButton4.setContentAreaFilled(false);
