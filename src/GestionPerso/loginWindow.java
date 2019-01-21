@@ -68,7 +68,7 @@ public class loginWindow extends javax.swing.JFrame {
 
         jPasswordField1.setBackground(new java.awt.Color(250, 200, 120));
         jPasswordField1.setFont(new java.awt.Font("Noto Sans", 1, 12)); // NOI18N
-        jPasswordField1.setText("test");
+        jPasswordField1.setText("ttt");
         jPasswordField1.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 3, 0, new java.awt.Color(120, 170, 250)));
         jPasswordField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
