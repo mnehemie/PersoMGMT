@@ -60,7 +60,6 @@ public class menuWindow extends javax.swing.JFrame {
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GestionPerso/Assets/icons8_Add_User_Male_96px.png"))); // NOI18N
         jButton2.setToolTipText("");
         jButton2.setBorder(null);
-        jButton2.setFocusable(false);
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -72,7 +71,6 @@ public class menuWindow extends javax.swing.JFrame {
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GestionPerso/Assets/icons8_Services_96px.png"))); // NOI18N
         jButton3.setToolTipText("");
         jButton3.setBorder(null);
-        jButton3.setFocusable(false);
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -84,7 +82,6 @@ public class menuWindow extends javax.swing.JFrame {
         jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GestionPerso/Assets/icons8_Schedule_96px.png"))); // NOI18N
         jButton4.setToolTipText("");
         jButton4.setBorder(null);
-        jButton4.setFocusable(false);
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
