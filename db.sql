@@ -9,7 +9,7 @@ CREATE TABLE Services(
 );
 
 CREATE TABLE Conges(
-    CongeId INT(10),
+    CongeId INT(10) PRIMARY KEY,
     DateDeb DATE,
     DateFin DATE
 );
@@ -29,7 +29,7 @@ Create TABLE Employes(
 CREATE TABLE Salaires(
     SalaireId INT(10),
     Montant float,
-    EmployeId int(10)
+    EmployeId int(10),
     CONSTRAINT sal_emp FOREIGN KEY (EmployeId) REFERENCES Employes(EmployeId)
 );
 
